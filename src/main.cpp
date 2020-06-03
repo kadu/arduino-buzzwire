@@ -3,9 +3,9 @@ using namespace std;
 #include <Arduino.h>
 #include <BUZZER.h>
 
-#define speaker 11
-#define led 13
-#define sensor 2
+#define speaker 10
+#define led 12
+#define sensor 11
 
 BUZZER *Buzzer = new BUZZER(speaker);
 
